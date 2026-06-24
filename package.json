@@ -1,0 +1,51 @@
+{
+  "name": "lineage-constellations",
+  "private": true,
+  "version": "0.1.0",
+  "description": "唐朝皇室宗亲星图",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://viz.lijihui.top/works/lineage-constellations",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc -b --noEmit"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "d3-delaunay": "^6.0.4",
+    "d3-force": "^3.0.0",
+    "d3-scale": "^4.0.2",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/d3": "^7.4.3",
+    "@types/d3-delaunay": "^6.0.4",
+    "@types/d3-force": "^3.0.10",
+    "@types/d3-scale": "^4.0.9",
+    "@types/node": "^24.12.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "tailwindcss": "^4.3.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.59.2",
+    "vite": "^8.0.12"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
